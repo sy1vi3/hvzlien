@@ -1,0 +1,20 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@font-face {
+  font-family: 'alien';
+  src: url('./static/alien.ttf');
+  unicode-range: U+2600-2628;
+}
+
+body {
+  padding: 12px;
+  font-family: alien, monospace;
+  font-size: 14px;
+}
+
+textarea {
+  font-family: alien, monospace;
+  font-size: 14px;
+}

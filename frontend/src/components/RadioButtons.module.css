@@ -1,0 +1,15 @@
+.RadioButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.RadioButtons label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.RadioButtons input {
+    margin: 0;
+}
